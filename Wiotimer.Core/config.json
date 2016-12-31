@@ -1,0 +1,20 @@
+﻿{
+  "BaseUri": "us.wio.seeed.io/v1/node/",
+  "WebSocket": {
+    "Protocol" :  "wss://", 
+    "Endpoint": "event",
+    "Id": ""
+  },
+  "LED": {
+    "Endpoint": "GroveLedWs2812D1",
+    "Amount": 30
+  },
+  "Rainbow": {
+    "Protocol":  "https://", 
+    "HTTP-Start": "start_rainbow_flow/{0}/{1}/{2}?access_token={3}",
+    "HTTP-Stop": "clear/{0}/000000?access_token={1}",
+    "Speed": 8,
+    "Brightness": 50,
+    "Duration": 180
+  }
+} 
